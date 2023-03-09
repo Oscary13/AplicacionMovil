@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionMovil.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Start">
+
+            <Label
+                Grid.Row="1" Grid.Column="1"
+                Text="&#x0a; ¡Ingrese los datos adecuadamente!"
+                FontSize="18"
+                FontAttributes="Bold"
+                VerticalOptions="Center"
+                HorizontalTextAlignment="Center"
+                     
+            />
+            <Image
+                Grid.Row="0" Grid.Column="2"
+                Source="corazon.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="60"
+                HorizontalOptions="Center" 
+            />
+
+            <Grid>
+
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition ></ColumnDefinition>
+                    <ColumnDefinition ></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Row="0" Grid.Column="0"
+                    Text="Presión sistólica:  "
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start" 
+                />
+
+                <Border Grid.Row="0" Grid.Column="1" VerticalOptions="Center">
+                    <Entry
+                    
+                        Placeholder="mmHg"
+                        PlaceholderColor="Black"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        Keyboard="Numeric"
+                    />
+                </Border>
+
+                <Label
+                    Grid.Row="1" Grid.Column="0"
+                    Text="Presión distólica:  "
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start" 
+                />
+
+                <Border Grid.Row="1" Grid.Column="1" VerticalOptions="Center">
+                    <Entry
+                    
+                        Placeholder="mmHg"
+                        PlaceholderColor="Black"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        Keyboard="Numeric"
+                    />
+                </Border>
+            </Grid>
+            <Label
+                Grid.Row="1" Grid.Column="1"
+                Text="&#x0a;¿Cuáles de estos síntomas ha presentado?"
+                FontSize="18"
+                FontAttributes="Bold"
+                VerticalOptions="Center"
+                HorizontalTextAlignment="Center"
+                     
+            />
+            <Grid>
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="250"></ColumnDefinition>
+                    <ColumnDefinition ></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Row="0" Grid.Column="0"
+                    Text="Visión borrosa."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="0" Grid.Column="1"
+                    ThumbColor="Red"
+                />
+
+                <Label
+                    Grid.Row="1" Grid.Column="0"
+                    Text="Nauseas o vómito."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="1" Grid.Column="1"
+                    ThumbColor="Blue"
+                />
+
+                <Label
+                    Grid.Row="2" Grid.Column="0"
+                    Text="Hemorragia nasal."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="2" Grid.Column="1"
+                    ThumbColor="Red"
+                />
+
+                <Label
+                    Grid.Row="3" Grid.Column="0"
+                    Text="Zumbido de oídos."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="3" Grid.Column="1"
+                    ThumbColor="Blue"
+                />
+
+                <Label
+                    Grid.Row="4" Grid.Column="0"
+                    Text="Nerviosismo."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="4" Grid.Column="1"
+                    ThumbColor="Red"
+                />
+
+                <Label
+                    Grid.Row="5" Grid.Column="0"
+                    Text="Mareo."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="5" Grid.Column="1"
+                    ThumbColor="Blue"
+                />
+
+                <Label
+                    Grid.Row="6" Grid.Column="0"
+                    Text="Debilidad muscular."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="6" Grid.Column="1"
+                    ThumbColor="Red"
+                />
+
+                <Label
+                    Grid.Row="7" Grid.Column="0"
+                    Text="Dolor en el pecho."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="7" Grid.Column="1"
+                    ThumbColor="Blue"
+                />
+
+                <Label
+                    Grid.Row="8" Grid.Column="0"
+                    Text="Palidez en la piel y labios."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="8" Grid.Column="1"
+                    ThumbColor="Red"
+                />
+
+                <Label
+                    Grid.Row="9" Grid.Column="0"
+                    Text="Sensación de cansancio sin motivo aparente."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="9" Grid.Column="1"
+                    ThumbColor="Blue"
+                />
+
+                <Label
+                    Grid.Row="10" Grid.Column="0"
+                    Text="Alteraciones del sueño."
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="18"
+                    VerticalOptions="Center"
+                />
+                <Switch 
+                    IsToggled="false" 
+                    Grid.Row="10" Grid.Column="1"
+                    ThumbColor="Red"
+                />
+
+            </Grid>
+
+
+
+
+
+            <Button Text="Obtener diagnóstico" FontSize="20" CornerRadius="400" WidthRequest="300" HeightRequest="50"></Button>
+            <Grid></Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
