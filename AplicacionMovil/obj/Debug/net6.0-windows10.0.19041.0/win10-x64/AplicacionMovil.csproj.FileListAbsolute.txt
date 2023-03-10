@@ -360,3 +360,15 @@ C:\Users\EQUIPO-2\source\repos\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-
 C:\Users\EQUIPO-2\source\repos\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\EQUIPO-2\source\repos\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\EQUIPO-2\source\repos\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\AplicacionMovil.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\User\OneDrive\Escritorio\AplicacionMovil\AplicacionMovil\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\AplicacionMovil.GeneratedMSBuildEditorConfig.editorconfig
