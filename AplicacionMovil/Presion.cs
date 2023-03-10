@@ -8,7 +8,8 @@ namespace AplicacionMovil
 {
     public class Presion
     {
-        public int presionSistolica { get; set; }
-        public int presionDiastolica { get; set; }
+        public String presionSistolica { get; set; }
+        public String presionDiastolica { get; set; }
+
     }
 }

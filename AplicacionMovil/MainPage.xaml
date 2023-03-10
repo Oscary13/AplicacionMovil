@@ -7,7 +7,7 @@
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
-            VerticalOptions="Start">
+            VerticalOptions="Center">
 
             <Label
                 Grid.Row="1" Grid.Column="1"
@@ -49,12 +49,15 @@
 
                 <Border Grid.Row="0" Grid.Column="1" VerticalOptions="Center">
                     <Entry
-                    
+                        x:Name="presionSistolica"
+                        MaxLength="3"
+                        ClearButtonVisibility="WhileEditing"
                         Placeholder="mmHg"
                         PlaceholderColor="Black"
                         HorizontalTextAlignment="Center"
                         VerticalTextAlignment="Center"
                         Keyboard="Numeric"
+                        Completed="presionSistolica_Completed"
                     />
                 </Border>
 
@@ -69,194 +72,27 @@
 
                 <Border Grid.Row="1" Grid.Column="1" VerticalOptions="Center">
                     <Entry
-                    
+                        x:Name="presionDistolica"
+                        MaxLength="3"
+                        ClearButtonVisibility="WhileEditing"
                         Placeholder="mmHg"
                         PlaceholderColor="Black"
                         HorizontalTextAlignment="Center"
                         VerticalTextAlignment="Center"
                         Keyboard="Numeric"
+                        Completed="presionDistolica_Completed"
                     />
                 </Border>
             </Grid>
-            <Label
-                Grid.Row="1" Grid.Column="1"
-                Text="&#x0a;¿Cuáles de estos síntomas ha presentado?"
-                FontSize="18"
-                FontAttributes="Bold"
-                VerticalOptions="Center"
-                HorizontalTextAlignment="Center"
-                     
+            <Button
+                x:Name="presion"
+                Text="Continuar" 
+                FontSize="20" 
+                CornerRadius="400" 
+                WidthRequest="300" 
+                HeightRequest="50"
+                Clicked="presion_Clicked"
             />
-            <Grid>
-                <Grid.RowDefinitions >
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
-                </Grid.RowDefinitions>
-
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="250"></ColumnDefinition>
-                    <ColumnDefinition ></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-
-                <Label
-                    Grid.Row="0" Grid.Column="0"
-                    Text="Visión borrosa."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="0" Grid.Column="1"
-                    ThumbColor="Red"
-                />
-
-                <Label
-                    Grid.Row="1" Grid.Column="0"
-                    Text="Nauseas o vómito."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="1" Grid.Column="1"
-                    ThumbColor="Blue"
-                />
-
-                <Label
-                    Grid.Row="2" Grid.Column="0"
-                    Text="Hemorragia nasal."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="2" Grid.Column="1"
-                    ThumbColor="Red"
-                />
-
-                <Label
-                    Grid.Row="3" Grid.Column="0"
-                    Text="Zumbido de oídos."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="3" Grid.Column="1"
-                    ThumbColor="Blue"
-                />
-
-                <Label
-                    Grid.Row="4" Grid.Column="0"
-                    Text="Nerviosismo."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="4" Grid.Column="1"
-                    ThumbColor="Red"
-                />
-
-                <Label
-                    Grid.Row="5" Grid.Column="0"
-                    Text="Mareo."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="5" Grid.Column="1"
-                    ThumbColor="Blue"
-                />
-
-                <Label
-                    Grid.Row="6" Grid.Column="0"
-                    Text="Debilidad muscular."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="6" Grid.Column="1"
-                    ThumbColor="Red"
-                />
-
-                <Label
-                    Grid.Row="7" Grid.Column="0"
-                    Text="Dolor en el pecho."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="7" Grid.Column="1"
-                    ThumbColor="Blue"
-                />
-
-                <Label
-                    Grid.Row="8" Grid.Column="0"
-                    Text="Palidez en la piel y labios."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="8" Grid.Column="1"
-                    ThumbColor="Red"
-                />
-
-                <Label
-                    Grid.Row="9" Grid.Column="0"
-                    Text="Sensación de cansancio sin motivo aparente."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="9" Grid.Column="1"
-                    ThumbColor="Blue"
-                />
-
-                <Label
-                    Grid.Row="10" Grid.Column="0"
-                    Text="Alteraciones del sueño."
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="18"
-                    VerticalOptions="Center"
-                />
-                <Switch 
-                    IsToggled="false" 
-                    Grid.Row="10" Grid.Column="1"
-                    ThumbColor="Red"
-                />
-
-            </Grid>
-
-
-
-
-
-            <Button Text="Obtener diagnóstico" FontSize="20" CornerRadius="400" WidthRequest="300" HeightRequest="50"></Button>
             <Grid></Grid>
         </VerticalStackLayout>
     </ScrollView>
